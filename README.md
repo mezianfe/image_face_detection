@@ -13,5 +13,21 @@ This project detects faces in an image using OpenCV's Haar cascade classifier. T
 ## Requirements
 Make sure you have Python installed along with the required dependencies:
 
-```bash
-pip install opencv-python
+`pip install opencv-python`
+
+## How to Use
+1. Upload an image named **"your_image.jpg"** to the project folder.
+2. Run the script:
+
+`python face.py your_image.jpg`
+
+3. The detected faces will be displayed, and if any faces are found, the modified image will be saved as `your_image_with_faces.jpg`.
+
+## Notes
+- You can use any image, but it must be named **"your_image.jpg"** before running the script.
+- Adjust `scaleFactor` and `minNeighbors` in the script for better detection accuracy.
+- If no faces are detected, the output image will not be saved.
+
+
+## License
+This project is open-source and free to use.
